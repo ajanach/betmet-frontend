@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/layout"
+              android:layout_width="match_parent"
+              android:layout_height="46dp"
+              android:gravity="center_vertical"
+              android:orientation="horizontal"
+              android:foreground="?selectableItemBackground"
+              android:paddingLeft="32dp"
+              android:paddingRight="32dp">
+    <!-- tools:background="#e4f33a" -->
+    <TextView
+        android:id="@+id/textNick"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/textNickActive"
+        android:textSize="20sp"
+        tools:text="Krachtan"/>
+
+    <TextView
+        android:id="@+id/textWon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:fontFamily="@font/atletico_medium"
+        android:textColor="#de000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="+30 €"/>
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/atletico_medium"
+        android:gravity="right"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:text="2 - 3"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:layout_width="match_parent"
+          android:layout_height="80dp"
+          android:background="#14000000"
+          android:drawableLeft="@drawable/ic_whistle"
+          android:drawablePadding="30dp"
+          android:gravity="center_vertical"
+          android:paddingLeft="24dp"
+          android:paddingRight="24dp"
+          android:text="@string/nikt_nie_trafil"
+          android:textColor="#de000000"
+          android:textSize="16sp"/>

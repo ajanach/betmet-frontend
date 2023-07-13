@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_marginLeft="32dp"
+              android:layout_marginRight="32dp"
+              android:layout_marginBottom="32dp"
+              android:orientation="horizontal"
+              android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/stawka"
+            android:textColor="#8a000000"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textStake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/atletico_medium"
+            android:textStyle="bold"
+            tools:text="10 €"
+            android:textColor="#de000000"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kasa_w_puli"
+            android:textColor="#8a000000"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/textJackpot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/atletico_medium"
+            android:textStyle="bold"
+            tools:text="30 €"
+            android:textColor="#6f000000"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+</LinearLayout>
